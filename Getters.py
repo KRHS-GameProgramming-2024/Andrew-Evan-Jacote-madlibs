@@ -63,7 +63,13 @@ def getGame(prompt, debug = False):
     "cod",
     "call of duty"
     ]
+def getAnimal(prompt, debug = False):
+    if debug: print("getAnimal Function")
     
+    goodInput = False
+    
+    Animal = [
+    ]
     while not goodInput:
         word = input(prompt)
         goodInput = True
