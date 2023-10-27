@@ -5,11 +5,11 @@ def Story2(debug = False):
 
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
-    games1 = getGame("Enter a name of game: ", debug)
+    animal1 = getanimal("Enter a name of animal: ", debug)
 
     out = "\n"
     out += "One day me and my friend, " + friendName1
-    out += " we were playing the video games called, " + games1
+    out += " found an animal on the street called a, " + animal1
 
 
     return out
