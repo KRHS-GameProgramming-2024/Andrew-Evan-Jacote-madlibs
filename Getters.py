@@ -24,7 +24,8 @@ def getMenuOption(debug = False):
             option == "Story1" ):
                 option = "1"
                 goodInput = True
-            
+        
+          
         else:
             print("Please make a valid choice")
             
@@ -107,7 +108,6 @@ def getAnimal(prompt, debug = False):
     "Sharks",
     "Otter",
     "Racoon",
-    "Deer",
     "Narwhal",
     "Deer",
     "Quokka",
