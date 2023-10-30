@@ -75,6 +75,64 @@ def getGame(prompt, debug = False):
             print (" Sorry, I don't know that one.")
             
     return word
+
+def getAnimal(prompt, debug = False):
+    if debug: print("getAnimal Function")
+    
+    goodInput = False
+    
+    Animal = ["Giraffe",
+    "Zebra", 
+    "Dog", 
+    "Cat",
+    "Monkey",
+    "Penguin",
+    "Parrot",
+    "Gorilla",
+    "Ant eater",
+    "Horse",
+    "Horse",
+    "Tiger",
+    "Cow",
+    "Snake",
+    "Bear",
+    "Wolf",
+    "Sloth",
+    "Leopard",
+    "Cheetah",
+    "Frog",
+    "Goat",
+    "Capybara",
+    "Sheep",
+    "Sharks",
+    "Otter",
+    "Racoon",
+    "Deer",
+    "Narwhal",
+    "Deer",
+    "Quokka",
+    "Koala",
+    "Donkey",
+    "Panda",
+    "Red Panda",
+    "Cougar",
+    "Ferret",
+    "Hippo",
+    "Squirrel",
+    "Meerkat",
+    
+    ]
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear(word, debug):
+            goodInput = False
+            print (" Don't use bad word bro")
+        elif word.lower() not in games:
+            goodInput = False
+            print (" Sorry, I don't know that one.")
+            
+    return word
     
 def isSwear(word, debug = False):
     if debug: print("isSwear Function")
