@@ -24,6 +24,30 @@ def getMenuOption(debug = False):
             option == "Story1" ):
                 option = "1"
                 goodInput = True
+                
+        elif (option == "2" or 
+            option == "two" or 
+            option == "Two" or
+            option == "story two" or
+            option == "Story two" or
+            option == "story 2" or
+            option == "Story 2" or
+            option == "story2" or
+            option == "Story2" ):
+                option = "2"
+                goodInput = True
+
+        elif (option == "3" or 
+            option == "three" or 
+            option == "Three" or
+            option == "story three" or
+            option == "Story three" or
+            option == "story 3" or
+            option == "Story 3" or
+            option == "story3" or
+            option == "Story3" ):
+                option = "3"
+                goodInput = True
         
           
         else:
