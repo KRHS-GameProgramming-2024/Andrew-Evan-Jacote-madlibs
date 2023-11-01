@@ -1,7 +1,7 @@
 from Getters import *
 
 def Story3(debug = False):
-    if debug: print("Story1 Function")
+    if debug: print("Story3 Function")
 
     print("\n")
     friendName3 = getWord("Enter a name: ", debug)
@@ -12,6 +12,7 @@ def Story3(debug = False):
     out += "One day me and my friend, " + friendName3
     out += " decided we wanted to go see , " + movie1
     out += "when we got to the theatre and we decided to get" + food1
+    out += "we sit down and leave halfway through " + movie1 + " because ot was bad"
     
     
     return out

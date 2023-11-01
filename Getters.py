@@ -152,9 +152,9 @@ swearList = ["shit",
             "pussy",
             "ass",
             "asshole"
-]
+    ]
 
- while not goodInput:
+while not goodInput:
         word = input(prompt)
         goodInput = True
         if movie(word, debug):
@@ -167,4 +167,4 @@ swearList = ["shit",
             
 movieList = ["strays",
              "barbie",
-             "cars2",
+             "cars2"]
