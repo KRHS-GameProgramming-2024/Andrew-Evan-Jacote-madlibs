@@ -26,7 +26,15 @@ def Madlibs(debug = False):
             print("\n")
             input("Press enter")
 
-
+        elif choice == "2":
+            print(Story2())
+            print("\n")
+            input("Press enter")
+            
+        elif choice == "3":
+            print(Story3())
+            print("\n")
+            input("Press enter")
 
 
 
