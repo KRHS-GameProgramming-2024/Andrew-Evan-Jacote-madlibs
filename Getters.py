@@ -120,9 +120,9 @@ def getAnimal(prompt, debug = False):
     "Hippo",
     "Squirrel",
     "Meerkat",
-    "elephant",
+    "elephant"]
     
-    ]
+    
     while not goodInput:
         word = input(prompt)
         goodInput = True
@@ -151,10 +151,10 @@ swearList = ["shit",
             "cunt",
             "pussy",
             "ass",
-            "asshole"
-]
+            "asshole"]
 
- while not goodInput:
+
+    while not goodInput:
         word = input(prompt)
         goodInput = True
         if movie(word, debug):
@@ -167,4 +167,4 @@ swearList = ["shit",
             
 movieList = ["strays",
              "barbie",
-             "cars2",
+             "cars2",]
