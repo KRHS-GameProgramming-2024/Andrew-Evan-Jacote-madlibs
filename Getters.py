@@ -202,5 +202,23 @@ def getMovie(prompt, debug = False):
     return word
 
             
+def getfood(prompt, debug = False):
+    if debug: print("getFood Function")
+
+    goodInput = False
+
             
+    foodList = ["popcorn",
+                "lasagna",
+                "fried chicken"
+                ]
+                
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if word.lower() not in foodList:
+            goodInput = False
+            print ("pick again we got popcorn,lasagna, and fried chicken")
+    return word
+
 
