@@ -174,8 +174,8 @@ swearList = ["shit",
             "cunt",
             "pussy",
             "ass",
-            "asshole",
-            "jacote"]
+            "asshole"
+            ]
 
 
 
