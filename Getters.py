@@ -153,7 +153,7 @@ def getAnimal(prompt, debug = False):
         if isSwear(word, debug):
             goodInput = False
             print (" Don't use bad word bro")
-        elif word.lower() not in games:
+        elif word.lower() not in Animal:
             goodInput = False
             print (" Sorry, I don't know that one.")
             
