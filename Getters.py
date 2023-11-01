@@ -151,9 +151,25 @@ swearList = ["shit",
             "cunt",
             "pussy",
             "ass",
-            "asshole"]
+<			"asshole"]
 
 
+
+
+
+            ]
+
+def getMovie(word, debug = False):
+    if debug: print("getMovie Function")
+
+    goodInput = False
+
+            
+    movieList = ["strays",
+                "barbie",
+                "cars2"
+                ]
+                
     while not goodInput:
         word = input(prompt)
         goodInput = True
@@ -163,8 +179,8 @@ swearList = ["shit",
         elif word.lower() not in movies:
             goodInput = False
             print ("thats not in theaters bud")
+	return word
+
             
             
-movieList = ["strays",
-             "barbie",
-             "cars2",]
+
