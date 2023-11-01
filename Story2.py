@@ -9,7 +9,9 @@ def Story2(debug = False):
 
     out = "\n"
     out += "One day me and my friend, " + friendName1
-    out += " found an animal on the street called a, " + animall
+    out += " found an animal on the street called a, " + animal1
+    out += " we took the " + animal1
+    out += " back home and took great care of it."
 
 
     return out

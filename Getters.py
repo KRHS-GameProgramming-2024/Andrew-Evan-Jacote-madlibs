@@ -131,7 +131,6 @@ def getAnimal(prompt, debug = False):
     "Sharks",
     "Otter",
     "Racoon",
-    "Deer",
     "Narwhal",
     "Deer",
     "Quokka",
