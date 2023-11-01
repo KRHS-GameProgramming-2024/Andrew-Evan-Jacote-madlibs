@@ -11,7 +11,7 @@ def Story3(debug = False):
     out = "\n"
     out += "One day me and my friend, " + friendName3
     out += " decided we wanted to go see , " + movie1
-    out += "when we got to the theatre and we decided to get" + food1
+    out += "when we got to the theatre we decided to get" + food1
     out += "we sit down and leave halfway through " + movie1 + " because ot was bad"
     
     
