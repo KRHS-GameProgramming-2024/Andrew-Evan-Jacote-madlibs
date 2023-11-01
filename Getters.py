@@ -218,7 +218,7 @@ def getfood(prompt, debug = False):
         goodInput = True
         if word.lower() not in foodList:
             goodInput = False
-            print ("pick again we got popcorn,lasagna, and fried chicken")
+            print ("pick again we got popcorn, lasagna, and fried chicken")
     return word
 
 
