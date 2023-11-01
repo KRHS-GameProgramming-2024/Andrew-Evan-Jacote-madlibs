@@ -6,6 +6,7 @@ def Story1(debug = False):
     print("\n")
     friendName1 = getWord("Enter a name of friend: ", debug)
     games1 = getGame("Enter a name of game: ", debug)
+    
 
     out = "\n"
     out += "One day me and my friend, " + friendName1

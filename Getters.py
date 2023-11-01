@@ -24,6 +24,30 @@ def getMenuOption(debug = False):
             option == "Story1" ):
                 option = "1"
                 goodInput = True
+
+        elif (option == "2" or 
+            option == "two" or 
+            option == "Two" or
+            option == "story two" or
+            option == "Story two" or
+            option == "story 2" or
+            option == "Story 2" or
+            option == "story2" or
+            option == "Story2" ):
+                option = "2"
+                goodInput = True
+
+        elif (option == "3" or 
+            option == "three" or 
+            option == "Three" or
+            option == "story three" or
+            option == "Story three" or
+            option == "story 3" or
+            option == "Story 3" or
+            option == "story3" or
+            option == "Story3" ):
+                option = "3"
+                goodInput = True
             
         else:
             print("Please make a valid choice")
@@ -121,8 +145,8 @@ def getAnimal(prompt, debug = False):
     "Squirrel",
     "Meerkat",
     "elephant",
-    
     ]
+    
     while not goodInput:
         word = input(prompt)
         goodInput = True
@@ -152,9 +176,19 @@ swearList = ["shit",
             "pussy",
             "ass",
             "asshole"
-]
+            ]
 
- while not goodInput:
+def getMovie(word, debug = False):
+    if debug: print("getMovie Function")
+
+    goodInput = False
+            
+    movieList = ["strays",
+                "barbie",
+                "cars2"
+                ]
+                
+    while not goodInput:
         word = input(prompt)
         goodInput = True
         if movie(word, debug):
@@ -163,8 +197,3 @@ swearList = ["shit",
         elif word.lower() not in movies:
             goodInput = False
             print ("thats not in theaters bud")
-            
-            
-movieList = ["strays",
-             "barbie",
-             "cars2",

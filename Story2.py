@@ -5,7 +5,7 @@ def Story2(debug = False):
 
     print("\n")
     friendName1 = getWord("Enter a name: ", debug)
-    animal1 = getanimal("Enter a name of animal: ", debug)
+    animal1 = getAnimal("Enter a name of animal: ", debug)
 
     out = "\n"
     out += "One day me and my friend, " + friendName1
