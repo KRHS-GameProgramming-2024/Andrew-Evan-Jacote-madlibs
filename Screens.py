@@ -14,6 +14,7 @@ def TitleScreen(debug = False):
     s+= "|                                      |\n"
     s+= "|                                      |\n"
     s+= "|                                      |\n"
+    s+= "|                                      |\n"
     s+= "|       Press enter to continue        |\n"
     s+= "|--------------------------------------|\n"
 
