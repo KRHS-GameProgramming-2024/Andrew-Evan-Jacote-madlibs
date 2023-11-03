@@ -7,7 +7,11 @@ def TitleScreen(debug = False):
     s+= "|                                      |\n"
     s+= "|                    By Andrew Parker  |\n"
     s+= "|                       Evan henley    |\n"
+<<<<<<< HEAD
     s+= "|                       Jacote Rwhyder   |\n"
+=======
+    s+= "|                       Jakoty Ryder   |\n"
+>>>>>>> origin/master
     s+= "|                                      |\n"
     s+= "|                                      |\n"
     s+= "|                                      |\n"
