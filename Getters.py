@@ -214,6 +214,10 @@ def getMovie(prompt, debug = False):
 
             
 def getfood(prompt, debug = False):
+    
+    
+    
+    
     if debug: print("getFood Function")
 
     goodInput = False
@@ -233,3 +237,24 @@ def getfood(prompt, debug = False):
     return word
 
 
+def getDeath(prompt, debug = False):
+    if debug: print("getDeath Function")
+
+    goodInput = False
+
+            
+    DeathList = ["hung",
+                "snoo snoo",
+                "shot",
+                "beat",
+                "poison",
+                "torture"
+                ]
+                
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if word.lower() not in DeathList:
+            goodInput = False
+            print ("thats sick pick something a little more tame bud")
+    return word

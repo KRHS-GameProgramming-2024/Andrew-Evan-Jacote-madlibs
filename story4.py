@@ -5,8 +5,8 @@ def story4(debug = False):
 
     print("\n")
     friendName4 = getWord("Enter a name: ", debug)
-    badname1 = getbadname("Enter a name of a bad person: ", debug)
-    death1 = getdeath("Enter a name of a painful way to die: ", debug)
+    badname1 = getWord("Enter a name of a bad person: ", debug)
+    death1 = getDeath("Enter a name of a painful way to die: ", debug)
     
     out = "\n"
     out += "One day me and my friend, " + friendName4
