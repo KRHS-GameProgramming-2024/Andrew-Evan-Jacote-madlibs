@@ -12,7 +12,8 @@ def Story2(debug = False):
     out += " found an animal on the street called a, " + animal1
     out += " we took the " + animal1
     out += " back home and took great care of it."
-
+    out += " But then we had the idea of bringing the" + animal1
+    out += " to the theater"
 
     return out
 

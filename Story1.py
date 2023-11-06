@@ -12,8 +12,8 @@ def Story1(debug = False):
     out += "One day me and my friend, " + friendName1
     out += " We were playing the video games called, " + games1
     out += " But then, we got bored of playing " + games1
-
-
+    out += ". So me and " + friendName1 
+    out += " decided to go to the zoo"
 
 
     return out
