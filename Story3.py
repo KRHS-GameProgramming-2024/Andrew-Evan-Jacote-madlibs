@@ -13,6 +13,7 @@ def Story3(debug = False):
     out += " decided we wanted to go see , " + movie1
     out += " when we got to the theatre we decided to get " + food1
     out += " we sit down and leave halfway through " + movie1 + " because it was bad"
+    out += " we decide to take a shortcut home in a dark ally"
     
     
     return out
