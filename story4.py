@@ -9,7 +9,7 @@ def story4(debug = False):
     death1 = getdeath("Enter a name of a painful way to die: ", debug)
     
     out = "\n"
-    out += "One day me and my friend, " + friendName3
+    out += "One day me and my friend, " + friendName4
     out += " Got kidnapped by , " + badname1
     out += " he sentences us to be " + death1 + "to death"
     out += " we say our goodbyes until " + badname1 + " has a change of heart and lets us go ,Hooray"
