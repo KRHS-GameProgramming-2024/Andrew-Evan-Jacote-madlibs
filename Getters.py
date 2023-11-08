@@ -154,7 +154,8 @@ def getAnimal(prompt, debug = False):
     "hippo",
     "squirrel",
     "meerkat",
-    "elephant"]
+    "elephant",
+    "lion"]
     
     
     while not goodInput:
