@@ -77,7 +77,7 @@ def getWord(prompt, debug = False):
         goodInput = True
         if isSwear(word, debug):
             goodInput = False
-            print (" Don't use bad word bro")
+            print (" Don't use bad word brother/sister/other thing")
             
     return word
     
