@@ -259,3 +259,26 @@ def getDeath(prompt, debug = False):
             goodInput = False
             print ("thats sick pick something a little more tame bud")
     return word
+
+
+
+def getegg(prompt, debug = False):
+    if debug: print("getegg Function")
+
+    goodInput = False
+
+            
+    eggList = ["y",
+                "n",
+                "pasta"
+                ]
+                
+    while not goodInput:
+        word = input(prompt)
+        if word == "pasta":
+            print("you found a secret good job")
+        goodInput = True
+        if word.lower() not in eggList:
+            goodInput = False
+            print ("its y or n")
+    return word
