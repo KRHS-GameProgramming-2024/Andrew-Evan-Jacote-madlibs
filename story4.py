@@ -15,7 +15,7 @@ def story4(debug = False):
     
     
     out = "\n"
-    out += "One day me and my friend, " + friendName4
+    out += "one day in a spooky dark alley me and my friend, " + friendName4
     out += " Got kidnapped by  " + badname1 + "," + badname2 + "," + badname3 + ",and " + badname4 
     out += " they sentences us to be " + death1 + "'d to death by an " +animal1 +" eating " +food1
     out += " we say our goodbyes until " + badname1 + " has a change of heart and saves us by getting rid of " + badname2 +" " badname3 +" " badname4
