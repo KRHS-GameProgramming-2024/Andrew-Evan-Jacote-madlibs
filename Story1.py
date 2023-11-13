@@ -21,7 +21,7 @@ def Story1(debug = False):
     out += " but that game was way too hard."
     out += ". So me and " + friendName1 
     out += " decided to go to the zoo to go see an animal called " + animal1
-    out = "hint for the secret chicken and waffles are almost as good as chicken parm"
+
 
     return out
 
