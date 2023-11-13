@@ -23,6 +23,8 @@ def Story3(debug = False):
     out += "we got very tired so"
     out += "we thought it would be a good idea to go back home and play " +games1
     out += " we decide to take a shortcut home in a dark ally"
+    out += "\n"
+    out += "the hint is sta"
     
     
     return out

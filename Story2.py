@@ -25,7 +25,8 @@ def Story2(debug = False):
     out += " at one of my favorite restaurants."
     out += "After we ate we went back home and played " +games1
     out += "after we've been playing for hours a new movie from our favorite series came out called " +movie2
-    out = "hint is pa"
+    out += "\n"
+    out += "hint is pa"
 
     return out
 

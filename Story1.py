@@ -21,6 +21,8 @@ def Story1(debug = False):
     out += " but that game was way too hard."
     out += ". So me and " + friendName1 
     out += " decided to go to the zoo to go see an animal called " + animal1
+    out += "\n"
+    out += " the 1st hint for the secret code is it is 5 letters long and is the answer to waffles"
 
 
     return out
