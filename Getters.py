@@ -229,7 +229,17 @@ def getMovie(prompt, debug = False):
             
     movieList = ["strays",
                 "barbie",
-                "cars2"
+                "cars 2",
+                "blazing saddles",
+                "angry birds",
+                "angry birds 2",
+                "cars",
+                "cars 3",
+                "pixel",
+                "kung fo panda",
+                "kung fo panda 2",
+                "kung fo panda 3",
+                "the simpson movie"
                 ]
                 
     while not goodInput:
