@@ -68,7 +68,7 @@ def MainMenu2(debug = False):
     return s
 
 
-def MainMenu2(debug = False):
+def MainMenu3(debug = False):
     if debug: print("MainMenu Function")
     
     s = "|--------------------------------------|\n"
@@ -90,7 +90,7 @@ def MainMenu2(debug = False):
 
     return s
 
-def MainMenu2(debug = False):
+def MainMenu4(debug = False):
     if debug: print("MainMenu Function")
     
     s = "|--------------------------------------|\n"
@@ -112,7 +112,7 @@ def MainMenu2(debug = False):
 
     return s
 
-def MainMenu2(debug = False):
+def MainMenu5(debug = False):
     if debug: print("MainMenu Function")
     
     s = "|--------------------------------------|\n"
@@ -134,7 +134,7 @@ def MainMenu2(debug = False):
 
     return s
     
-def MainMenu2(debug = False):
+def MainMenu6(debug = False):
     if debug: print("MainMenu Function")
     
     s = "|--------------------------------------|\n"
@@ -156,7 +156,7 @@ def MainMenu2(debug = False):
 
     return s
     
-    def MainMenu2(debug = False):
+    def MainMenu7(debug = False):
     if debug: print("MainMenu Function")
     
     s = "|--------------------------------------|\n"
@@ -177,3 +177,48 @@ def MainMenu2(debug = False):
     s+= "|--------------------------------------|\n"
 
     return s
+    
+    def MainMenu8(debug = False):
+    if debug: print("MainMenu Function")
+    
+    s = "|--------------------------------------|\n"
+    s+= "|               Madlibs                |\n"
+    s+= "|                                      |\n"
+    s+= "|  1) Story 1       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  2) Story 2       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  3) Story 3       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  4) Story 4?                         |\n"
+    s+= "|                                      |\n"
+    s+= "|  Q) Quit                             |\n"
+    s+= "|                                      |\n"
+    s+= "|                                      |\n"
+    s+= "|                                      |\n"
+    s+= "|--------------------------------------|\n"
+
+    return s
+    
+    def MainMenu9(debug = False):
+    if debug: print("MainMenu Function")
+    
+    s = "|--------------------------------------|\n"
+    s+= "|               Madlibs                |\n"
+    s+= "|                                      |\n"
+    s+= "|  1) Story 1       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  2) Story 2       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  3) Story 3       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  4) Story 4       complete           |\n"
+    s+= "|                                      |\n"
+    s+= "|  Q) Quit                             |\n"
+    s+= "|                                      |\n"
+    s+= "|                                      |\n"
+    s+= "|                                      |\n"
+    s+= "|--------------------------------------|\n"
+
+    return s
+

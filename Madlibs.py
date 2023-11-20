@@ -16,8 +16,31 @@ def Madlibs(debug = False):
     
     done = False
     
-    while not done:
+while not done:
+        
+    if Story1 == false and Story2 == false and Story3 == false:
         print(MainMenu(debug))
+        
+    elif Story1 == true and Story2 == false and Story3 == false:
+        print(MainMenu2(debug))
+        
+    elif Story1 == false and Story2 == true and Story3 == false:
+        print(MainMenu3(debug))
+        
+    elif Story1 == false and Story2 == false and Story3 == true:
+        print(MainMenu4(debug))
+        
+    elif Story1 == true and Story2 == true and Story3 == false:
+        print(MainMenu5(debug))
+        
+    elif Story1 == true and Story2 == false and Story3 == true:
+        print(MainMenu6(debug))
+        
+    elif Story1 == false and Story2 == true and Story3 == true:
+        print(MainMenu7(debug))
+        
+    elif Story1 == true and Story2 == true and Story3 == true:
+        print(MainMenu8(debug))
         choice = getMenuOption(debug)
         
         if choice == "Q":
