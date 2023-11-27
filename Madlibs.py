@@ -15,34 +15,13 @@ def Madlibs(debug = False):
         pass
     
     done = False
-    
-while not done:
-        
-    if Story1 == false and Story2 == false and Story3 == false:
-        print(MainMenu(debug))
-        
-    elif Story1 == true and Story2 == false and Story3 == false:
-        print(MainMenu2(debug))
-        
-    elif Story1 == false and Story2 == true and Story3 == false:
-        print(MainMenu3(debug))
-        
-    elif Story1 == false and Story2 == false and Story3 == true:
-        print(MainMenu4(debug))
-        
-    elif Story1 == true and Story2 == true and Story3 == false:
-        print(MainMenu5(debug))
-        
-    elif Story1 == true and Story2 == false and Story3 == true:
-        print(MainMenu6(debug))
-        
-    elif Story1 == false and Story2 == true and Story3 == true:
-        print(MainMenu7(debug))
-        
-    elif Story1 == true and Story2 == true and Story3 == true:
-        print(MainMenu8(debug))
-        choice = getMenuOption(debug)
-        
+    completed = []
+    fourUnlock = False
+    menu = MainMenu(debug)
+    while not done:
+        print(menu)
+        choice = getMenuOption(fourUnlock, debug)
+            
         if choice == "Q":
             exit();
         
@@ -50,21 +29,33 @@ while not done:
             print(Story1())
             print("\n")
             input("Press enter")
+            menu = updateMenu(menu, 1)
+            completed += [1]
 
         elif choice == "2":
             print(Story2())
             print("\n")
             input("Press enter")
+            menu = updateMenu(menu, 2)
+            completed += [2]
             
         elif choice == "3":
             print(Story3())
             print("\n")
             input("Press enter")
+            menu = updateMenu(menu, 3)
+            completed += [3]
 
         elif choice == "4":
             print(story4())
             print("\n")
             input("Press enter")
+            menu = updateMenu(menu, 4)
+            completed += [4]
+            
+        if 1 in completed and 2 in completed and 3 in completed:
+            menu = updateMenu(menu, 123)
+            fourUnlock = True
 
 
 Madlibs(False)

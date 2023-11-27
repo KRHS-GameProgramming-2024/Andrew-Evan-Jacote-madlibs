@@ -1,4 +1,4 @@
-def getMenuOption(debug = False):
+def getMenuOption(unlocked, debug = False):
     if debug: print("getMenuOption Function")
     
     goodInput = False
@@ -49,7 +49,7 @@ def getMenuOption(debug = False):
                 option = "3"
                 goodInput = True
         
-        elif (option == "4" or 
+        elif unlocked and (option == "4" or 
             option == "four" or 
             option == "Four" or
             option == "story four" or
