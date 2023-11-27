@@ -50,7 +50,8 @@ def updateMenu(menu, num):
         lines[3] =  "|  1) Story 1         complete         |\n"
     elif num == 2:
         lines[5] =  "|  2) Story 2         complete         |\n"
-        
+    elif num == 3:
+        lines[7] =  "|  2) Story 3         complete         |\n"  
     if num == 123:
         lines[9] =  "|  4) Story 4                          |\n"
         
