@@ -47,16 +47,16 @@ def MainMenu(debug = False):
 def updateMenu(menu, num):
     lines = menu.split('\n')
     if num == 1:
-        lines[3] =  "|  1) Story 1         complete         |\n"
+        lines[3] =  "   1) Story 1         complete         |"
     elif num == 2:
-        lines[5] =  "|  2) Story 2         complete         |\n"
+        lines[5] =  "   2) Story 2         complete         |"
     elif num == 3:
-        lines[7] =  "|  2) Story 3         complete         |\n"  
+        lines[7] =  "   3) Story 3         complete         |"  
     if num == 123:
-        lines[9] =  "|  4) Story 4                          |\n"
+        lines[9] =  "   4) Story 4                          |"
         
     out = ""
     for line in lines:
-        out += line
+        out += line +"\n"
         
     return out
